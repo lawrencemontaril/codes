@@ -187,23 +187,23 @@ public class Quiz implements ActionListener
 
 		// Play button.
 		buttonPlay.setBounds(540, 290, 200, 100);
-        buttonPlay.setFont(sf_mono);
-        buttonPlay.setBackground(bg);
-        buttonPlay.setForeground(fg);
+        	buttonPlay.setFont(sf_mono);
+		buttonPlay.setBackground(bg);
+        	buttonPlay.setForeground(fg);
 		buttonPlay.setBorder(BorderFactory.createLineBorder(fg, 3));
-        buttonPlay.setFocusable(false);
-        buttonPlay.addActionListener(this);
-        buttonPlay.setText("Play again");
+        	buttonPlay.setFocusable(false);
+        	buttonPlay.addActionListener(this);
+        	buttonPlay.setText("Play again");
 
 		// Exit button.
-        buttonExit.setBounds(540, 400, 200, 100);
-        buttonExit.setFont(sf_mono);
-        buttonExit.setBackground(bg);
-        buttonExit.setForeground(fg);
+        	buttonExit.setBounds(540, 400, 200, 100);
+        	buttonExit.setFont(sf_mono);
+        	buttonExit.setBackground(bg);
+        	buttonExit.setForeground(fg);
 		buttonExit.setBorder(BorderFactory.createLineBorder(fg, 3));
-        buttonExit.setFocusable(false);
-        buttonExit.addActionListener(this);
-        buttonExit.setText("Exit game");
+        	buttonExit.setFocusable(false);
+        	buttonExit.addActionListener(this);
+        	buttonExit.setText("Exit game");
 
 		// Text area for answer letter A.
 		answer_labelA.setBounds(175, 250, 500, 100);
